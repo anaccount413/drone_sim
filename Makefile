@@ -1,4 +1,5 @@
 CXX = g++
+
 CXXFLAGS = -std=c++17 -g -Wl,-rpath,$(DEP_DIR)/lib
 ROOT_DIR = $(shell pwd)
 DEP_DIR = $(ROOT_DIR)/dependencies
